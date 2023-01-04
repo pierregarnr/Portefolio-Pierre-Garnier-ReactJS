@@ -1,0 +1,29 @@
+header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      font-size: 45px;
+      padding: 5px 0;
+      border-bottom: 10px solid #a00002;
+      background-color: white;
+      position: relative;
+      z-index: 3;
+      font-family: 'Dela Gothic One', sans-serif, Arial;
+}
+
+.link-header {
+      text-decoration: none;
+      color: black;
+}
+
+.link-header:hover {
+      text-decoration: underline dotted 5px black;
+      -webkit-text-stroke: 1px rgb(0, 0, 0);
+      color: transparent;
+}
+
+.logo-header {
+      width: 200px;
+}

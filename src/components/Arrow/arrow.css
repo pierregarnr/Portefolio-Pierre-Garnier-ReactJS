@@ -1,0 +1,25 @@
+.arrow-top {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: cell;
+}
+
+button {
+      background-color: transparent;
+      border: none;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 11;
+      cursor: pointer;
+}
+
+.icone {
+      width: 60px;
+      opacity: 0.85;
+}

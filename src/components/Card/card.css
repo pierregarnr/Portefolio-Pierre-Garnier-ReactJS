@@ -1,0 +1,46 @@
+.realisation>h1 {
+      display: flex;
+      justify-content: center;
+}
+
+.carts {
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      width: 30%;
+      height: 600px;
+      border: 2px solid red;
+}
+
+/* Test cards */
+.fiche-wrapper {
+      display: flex;
+      border-radius: 20px;
+}
+
+.fiche-wrapper>div {
+      margin: 0 25px 25px;
+}
+
+.emoticones {
+      width: 100px;
+}
+
+.img-projet {
+      min-width: 540px;
+      margin-top: 5%;
+}
+
+.fiche-wrapper {
+      display: flex;
+      justify-content: space-between;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.links-projets {
+      display: flex;
+      justify-content: space-between;
+      width: 110px;
+}

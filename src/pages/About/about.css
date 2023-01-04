@@ -1,0 +1,80 @@
+.présentation {
+      border-top: 10px solid #a00002;
+      font-family: 'Dela Gothic One', sans-serif, Arial;
+      font-weight: 100;
+}
+
+.présentation>h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 49px;
+      margin-bottom: 10px;
+}
+
+.photo-texte {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 10;
+      gap: 35px;
+      margin: 20px;
+}
+
+.photo {
+      width: 150px;
+      border: 2px solid black;
+      background-color: #326381;
+      border-radius: 80px;
+}
+
+.bubble-text {
+      background: #2981CB;
+      color: black;
+      padding: 2px 15px;
+      border-radius: 9px;
+      border: 1px solid black;
+      max-width: 850px;
+}
+
+.bubble-text>h1 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 49px;
+      margin: 15px 0 0;
+      letter-spacing: 2px;
+}
+
+.bubble-text>p {
+      text-align: center;
+}
+
+.bubble-text::after {
+      content: "";
+      border-right: 40px solid transparent;
+      border-top: 20px solid #2981CB;
+      position: absolute;
+}
+
+.photo-texte>p {
+      padding-left: 50px;
+      font-size: 26px;
+      width: 730px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+}
+
+.cv-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+}
+
+.cv-icone {
+      width: 100px;
+}
