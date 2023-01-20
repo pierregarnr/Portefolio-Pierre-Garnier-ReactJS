@@ -11,11 +11,13 @@ export function ProjectList() {
                   github={item.github} site={item.site} cover={item.cover} />);
 
       return (
+            <div>
+                  <h2 className="title-realisation"> Mes récentes réalisations</h2>
+                  <section class="realisation">
 
-            <section class="realisation">
-                  <h2> Mes récentes réalisations</h2>
-                  {listItems}
-            </section>
+                        {listItems}
+                  </section>
+            </div>
       );
 
 } 

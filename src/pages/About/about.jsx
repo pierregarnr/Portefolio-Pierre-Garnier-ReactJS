@@ -25,12 +25,11 @@ export function About() {
                               </div>
                         </div>
 
-
-                        <a href="http://www.example.com/myfile.pdf#page=4" target="_blank" rel="noopener noreferrer" className='cv-wrapper'>
+                        <a href="/pierre-garnier.pdf" target="_blank" className='cv-wrapper'>
                               <img src={cv} alt="lien pour télécharger mon cv" draggable="false" className='cv-icone' />
-
                               <p>Télécharger mon CV 📋</p>
                         </a>
+
 
                   </div>
 

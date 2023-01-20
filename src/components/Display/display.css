@@ -2,4 +2,21 @@
       padding: 0 50px 50px;
       gap: 20px;
       display: grid;
+
+}
+
+.title-realisation {
+      padding: 10px 50px;
+      text-decoration: underline dotted;
+}
+
+@media screen and (max-width :520px) {
+      .realisation {
+            padding: 20px 15px 50px 15px;
+
+      }
+
+      .title-realisation {
+            padding: 0 20px;
+      }
 }
