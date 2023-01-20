@@ -18,7 +18,7 @@ const Projet = (props) => {
 
                   {technos.map((techno) => (
                         <li>
-                              <img src={images[techno]} alt={techno} />
+                              <img src={images[techno]} alt={techno} draggable='false' />
                         </li>
                   ))}
 

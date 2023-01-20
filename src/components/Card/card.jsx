@@ -12,7 +12,7 @@ export function Card({ techno, title, subtitle, contexte, github, site, cover })
             if (site === "0") {
                   return null
             } else {
-                  return <a href={site} target="_blank" rel="noopener noreferrer" className='website-link'>
+                  return <a href={site} target="_blank" rel="noopener noreferrer" className='website-link' draggable='false'>
                         <img src={LogoSite} alt='lien vers le site du projet' draggable='false' className="logo-github" />
                   </a>;
             }
@@ -28,7 +28,7 @@ export function Card({ techno, title, subtitle, contexte, github, site, cover })
                         <p> {contexte} </p>
                         <div className="links-technos">
                               <div className='links'>
-                                    <a href={github} target="_blank" rel="noopener noreferrer" >
+                                    <a href={github} target="_blank" rel="noopener noreferrer" draggable="false">
                                           <img src={LogoGithub} alt='lien vers mon projet Github' draggable='false' className="logo-github" />
                                     </a>
                                     <Website />
