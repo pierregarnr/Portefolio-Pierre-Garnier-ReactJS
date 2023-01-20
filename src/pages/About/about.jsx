@@ -25,7 +25,7 @@ export function About() {
                               </div>
                         </div>
 
-                        <a href="./cv-pierre-garnier.pdf" target="_blank" className='cv-wrapper' draggable='false'>
+                        <a href="cv-pierre-garnier.pdf" target="_blank" className='cv-wrapper' draggable='false'>
                               <img src={cv} alt="lien pour télécharger mon cv" draggable="false" className='cv-icone' />
                               <p>Télécharger mon CV 📋</p>
                         </a>
